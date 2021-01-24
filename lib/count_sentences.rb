@@ -18,7 +18,10 @@ class String
     split_array = []
     split_array = self.split(".")
     split_array_2 = self.split("!")
+    split_array_3 = self.split("?")
     array_count = split_array.count
+    array_count_2 = split_array_2.count
+    array_count_3 = split_array_3.count
     #binding.pry
   end
 end
