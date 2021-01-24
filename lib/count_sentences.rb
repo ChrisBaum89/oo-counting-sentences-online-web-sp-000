@@ -19,7 +19,6 @@ class String
     split_1 = self.split(".")
     split_2 = self.split("?")
     split_3 = self.split("!")
-    array_count = split_array.count
     binding.pry
   end
 end
