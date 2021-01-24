@@ -19,6 +19,6 @@ class String
     split_1 = self.split(/\.|\?|\!/)
     split_1.delete("")
     split_1
-    binding.pry
+    #binding.pry
   end
 end
