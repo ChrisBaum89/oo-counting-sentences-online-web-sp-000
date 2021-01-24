@@ -16,8 +16,10 @@ class String
 
   def count_sentences
     split_array = []
-    split_array = self.split(".")
+    split_1 = self.split(".")
+    split_2 = self.split("?")
+    split_3 = self.split("!")
     array_count = split_array.count
-    #binding.pry
+    binding.pry
   end
 end
