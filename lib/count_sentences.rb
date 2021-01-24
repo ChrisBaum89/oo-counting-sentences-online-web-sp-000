@@ -18,7 +18,7 @@ class String
     split_1 = []
     split_1 = self.split(/\.|\?|\!/)
     split_1.delete("")
-    split_1
+    split_1.count
     #binding.pry
   end
 end
