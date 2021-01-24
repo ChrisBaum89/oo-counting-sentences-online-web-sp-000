@@ -18,6 +18,6 @@ class String
     split_array = []
     split_array_2 = []
     split_array = self.split(/\.|\?|\!/)
-    binding.pry
+    #binding.pry
   end
 end
