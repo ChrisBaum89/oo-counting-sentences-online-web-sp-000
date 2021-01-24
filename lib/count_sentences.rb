@@ -18,6 +18,6 @@ class String
     split_array = []
     split_array = self.split(".")
     split_array.length
-    #binding.pry
+    binding.pry
   end
 end
