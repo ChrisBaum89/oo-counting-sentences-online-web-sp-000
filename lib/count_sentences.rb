@@ -17,6 +17,7 @@ class String
   def count_sentences
     split_array = []
     split_1 = self.split(/\.|\?|\!/)
+    split_1.delete("")
     binding.pry
   end
 end
